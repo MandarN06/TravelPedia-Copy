@@ -6,7 +6,7 @@ import ProductReviews from './ProductReviews';
 
 const LocationSummary = (props) => {
 
-    const { brand, title, info, category, type, connectivity } = props;
+    const { id, name, cityName, state, Description, imgUrl, category, transport } = props;
 
     const { active, handleActive, activeClass } = useActive('specs');
 
@@ -23,7 +23,7 @@ const LocationSummary = (props) => {
                                 className={`tabs_item ${activeClass('specs')}`}
                                 onClick={() => handleActive('specs')}
                             >
-                               Overview
+                                Itinerary
                             </li>
                             <li
                                 className={`tabs_item ${activeClass('overview')}`}
@@ -45,36 +45,11 @@ const LocationSummary = (props) => {
                         {
                             active === 'specs' ? (
                                 <div className="prod_specs">
-                                    <ul>
-                                        <li>
-                                            <span>Name</span>
-                                            <span>{brand}</span>
-                                        </li>
-                                        <li>
-                                            <span>City</span>
-                                            <span>{title}</span>
-                                        </li>
-                                        <li>
-                                            <span>State</span>
-                                            <span>{category}</span>
-                                        </li>
-                                        <li>
-                                            <span> Type</span>
-                                            <span>{type}</span>
-                                        </li>
-                                        <li>
-                                            <span>Famous Spots</span>
-                                            <span>{connectivity}</span>
-                                        </li>
-                                        <li>
-                                            <span>About </span>
-                                            <span>Yes</span>
-                                        </li>
-                                    </ul>
+                                    <h4 className="prod_details_info">{Description}</h4>
                                 </div>
                             ) : active === 'overview' ? (
                                 <div className="prod_overview">
-                                    
+
                                     <ul>
                                         <li>Stay Safe</li>
                                         <li>Comfortable Hotels</li>
@@ -85,7 +60,7 @@ const LocationSummary = (props) => {
                             ) : (
                                 <div className="prod_reviews">
                                     <ul>
-                                      This is your E-Guide who will bw your partner in your jounrey 
+                                        This is your E-Guide who will bw your partner in your jounrey
                                     </ul>
                                 </div>
                             )

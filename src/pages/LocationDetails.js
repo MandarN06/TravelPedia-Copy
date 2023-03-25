@@ -32,7 +32,7 @@ const LocationDetails = () => {
             {/*=== Product Details Right-content ===*/}
             <div className="prod_details_right_col">
               <h1 className="prod_details_title">{propsData.name}</h1>
-              <h4 className="prod_details_info">{propsData.Description}</h4>
+              <h4 className="prod_details_info">{propsData.cityName} {propsData.state && <span>{propsData.state}</span>}</h4>
 
               <div className="separator"></div>
 

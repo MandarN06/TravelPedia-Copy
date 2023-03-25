@@ -46,9 +46,9 @@ const Cart = () => {
                         cartQuantity === 0 ? (
                             <EmptyView
                                 icon={<BsCartX />}
-                                msg="Your Wishlist is Empty"
+                                msg="Your Cart is Empty"
                                 link="/all-products"
-                                btnText="Start Exploring"
+                                btnText="Start Shopping"
                             />
                         ) : (
                             <div className="wrapper cart_wrapper">
@@ -88,7 +88,9 @@ const Cart = () => {
                                                 <b>{displayTotalAmount}</b>
                                             </div>
                                         </div>
-                                        <button type="button" className="btn checkout_btn">Checkout</button>
+                                        <a href='https://pmny.in/crZQdIGz23A1' className="btn checkout_btn">
+                                            Checkout
+                                        </a>         
                                     </div>
                                 </div>
                             </div>
