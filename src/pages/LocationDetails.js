@@ -25,7 +25,7 @@ const LocationDetails = () => {
             <div className="prod_details_left_col">
               <div className="prod_details_tabs"></div>
               <figure className="prod_details_img">
-                <img src={propsData.imageUrl} alt="product-img" />
+                <img src={propsData.imgUrl} alt="product-img" />
               </figure>
             </div>
 

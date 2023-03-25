@@ -46,9 +46,9 @@ const Cart = () => {
                         cartQuantity === 0 ? (
                             <EmptyView
                                 icon={<BsCartX />}
-                                msg="Your Cart is Empty"
+                                msg="Your Wishlist is Empty"
                                 link="/all-products"
-                                btnText="Start Shopping"
+                                btnText="Start Exploring"
                             />
                         ) : (
                             <div className="wrapper cart_wrapper">

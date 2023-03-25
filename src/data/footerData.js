@@ -12,22 +12,22 @@ export const footMenu = [
             },
             {
                 id: 2,
-                link: "Track Order",
+                link: "Track Location",
                 path: "/"
             },
             {
                 id: 3,
-                link: "Cancel Order",
+                link: "Cancel Tour",
                 path: "/"
             },
             {
                 id: 4,
-                link: "Return Order",
+                link: "Packages",
                 path: "/"
             },
             {
                 id: 5,
-                link: "Warranty Info",
+                link: "Guide Info",
                 path: "/"
             },
         ]

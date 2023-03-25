@@ -8,7 +8,7 @@ import useActive from '../../hooks/useActive';
 
 const ProductCard = (props) => {
 
-    const { id, images, title, info, finalPrice, originalPrice, rateCount, path } = props;
+    const { id, name, cityName, state, Description, imgUrl, category, rating } = props;
 
     const { addItem } = useContext(cartContext);
     const { active, handleActive, activeClass } = useActive(false);
@@ -26,39 +26,39 @@ const ProductCard = (props) => {
         }, 3000);
     };
 
-    const newPrice = displayMoney(finalPrice);
-    const oldPrice = displayMoney(originalPrice);
+    // const newPrice = displayMoney(finalPrice);
+    // const oldPrice = displayMoney(originalPrice);
 
 
     return (
         <>
             <div className="card products_card">
                 <figure className="products_img">
-                    <Link to={`${path}${id}`}>
-                        <img src={images[0]} alt="product-img" />
+                    <Link to={`detailfromhome/${id}`} state={props}>
+                        <img src={imgUrl} alt="product-img" />
                     </Link>
                 </figure>
                 <div className="products_details">
-                    <span className="rating_star">
+                    {/* <span className="rating_star">
                         {
                             [...Array(rateCount)].map((_, i) => <IoMdStar key={i} />)
                         }
-                    </span>
+                    </span> */}
                     <h3 className="products_title">
-                        <Link to={`${path}${id}`}>{title}</Link>
+                        <Link to={`${id}`}>{name}</Link>
                     </h3>
-                    <h5 className="products_info">{info}</h5>
+                    {/* <h5 className="products_info">{Description}</h5> */}
                     <div className="separator"></div>
                     <h2 className="products_price">
-                        {newPrice} &nbsp;
-                        <small><del>{oldPrice}</del></small>
+                        {/* {newPrice} &nbsp;
+                        <small><del>{oldPrice}</del></small> */}
                     </h2>
                     <button
                         type="button"
                         className={`btn products_btn ${activeClass(id)}`}
                         onClick={handleAddItem}
                     >
-                        {active ? 'Added' : 'Add to cart'}
+                        {active ? 'Added' : 'Add to your wishlist'}
                     </button>
                 </div>
             </div>

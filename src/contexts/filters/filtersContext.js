@@ -2,7 +2,7 @@ import { createContext, useEffect, useReducer } from 'react';
 import productsData from '../../data/productsData';
 import { brandsMenu, categoryMenu } from '../../data/filterBarData';
 import filtersReducer from './filtersReducer';
-import Data from '../../data/Data'
+import Data from '../../data/Data.js'
 // Filters-Context
 const filtersContext = createContext();
 
@@ -65,23 +65,23 @@ const FiltersProvider = ({ children }) => {
         if (state.sortedValue) {
             switch (state.sortedValue) {
                 case 'Asia':
-                    updatedProducts = updatedProducts.map(item => item.continent.toLowerCase()==="Asia".toLowerCase());
+                    updatedProducts = updatedProducts.filter(item => item.continent.toLowerCase()==="Asia".toLowerCase());
                     break;
 
                 case 'Africa':
-                    updatedProducts = updatedProducts.map(item => item.continent.toLowerCase()==="Africa".toLowerCase());
+                    updatedProducts = updatedProducts.filter(item => item.continent.toLowerCase()==="Africa".toLowerCase());
                     break;
 
                 case 'North America':
-                    updatedProducts = updatedProducts.map(item => item.continent.toLowerCase()==="North America".toLowerCase());
+                    updatedProducts = updatedProducts.filter(item => item.continent.toLowerCase()==="North America".toLowerCase());
                     break;
 
                 case 'Europe':
-                    updatedProducts = updatedProducts.map(item => item.continent.toLowerCase()==="Europe".toLowerCase());
+                    updatedProducts = updatedProducts.filter(item => item.continent.toLowerCase()==="Europe".toLowerCase());
                     break;
 
                 case 'Australia':
-                    updatedProducts = updatedProducts.map(item => item.continent.toLowerCase()==="Australia".toLowerCase());
+                    updatedProducts = updatedProducts.filter(item => item.continent.toLowerCase()==="Australia".toLowerCase());
                     break;
 
                 default:
@@ -92,29 +92,29 @@ const FiltersProvider = ({ children }) => {
         /*==== Filtering ====*/
 
         // filter by Brands
-        const checkedBrandItems = state.updatedBrandsMenu.filter(item => {
-            return item.checked;
-        }).map(item => item.label.toLowerCase());
+        // const checkedBrandItems = state.updatedBrandsMenu.filter(item => {
+        //     return item.checked;
+        // }).map(item => item.label.toLowerCase());
 
-        if (checkedBrandItems.length) {
-            updatedProducts = updatedProducts.filter(item => checkedBrandItems.includes(item.continent.toLowerCase()));
-        }
+        // if (checkedBrandItems.length) {
+        //     updatedProducts = updatedProducts.filter(item => checkedBrandItems.includes(item.continent.toLowerCase()));
+        // }
 
-        // filter by Category
-        const checkedCategoryItems = state.updatedCategoryMenu.filter(item => {
-            return item.checked;
-        }).map(item => item.label.toLowerCase());
+        // // filter by Category
+        // const checkedCategoryItems = state.updatedCategoryMenu.filter(item => {
+        //     return item.checked;
+        // }).map(item => item.label.toLowerCase());
 
-        if (checkedCategoryItems.length) {
-            updatedProducts = updatedProducts.filter(item => checkedCategoryItems.includes(item.category.toLowerCase()));
-        }
+        // if (checkedCategoryItems.length) {
+        //     updatedProducts = updatedProducts.filter(item => checkedCategoryItems.includes(item.category.toLowerCase()));
+        // }
 
-        // filter by Price
-        if (state.selectedPrice) {
-            updatedProducts = updatedProducts.filter(item => {
-                return item.finalPrice <= state.selectedPrice.price;
-            });
-        }
+        // // filter by Price
+        // if (state.selectedPrice) {
+        //     updatedProducts = updatedProducts.filter(item => {
+        //         return item.finalPrice <= state.selectedPrice.price;
+        //     });
+        // }
 
         dispatch({
             type: 'FILTERED_PRODUCTS',

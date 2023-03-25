@@ -2,8 +2,8 @@ const Data = [
     {
         id: 1,
         name: "India",
-        description: "I love India",
-        heroImage: "https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg",
+        description: "India is a country that attracts millions of tourists every year and is considered one of the most popular tourist destinations in the world. These visitors are attracted to its natural beauty and cultural heritage. It has many historic sites as well like the Taj Mahal, Golden Temple, Red Fort, etc.",
+        heroImage: "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
         continent: "Asia",
         locations: [
             {
@@ -11,8 +11,8 @@ const Data = [
                 name: "Taj-Mahal",
                 cityName: "Agra",
                 state: "Uttar Pradesh",
-                Description: "This is the most famous in Agra",
-                imageUrl: "https://www.planetware.com/photos-large/IND/india-top-attractions-taj-mahal.jpg",
+                Description: "Taj Mahal is the epitome of grandeur and splendour, you cannot fathom the beauty of this white marbled monument unless you stand in front of it. As you approach Taj Mahal, it gradually becomes known to you that this is no ordinary monument, but a vision come to life! Moved by its beauty and the deep affection of Shah Jahan for Mumtaz, the Nobel Laureate Rabindranath Tagore called it .A UNESCO World Heritage Site, it is located on the bank of the Yamuna River and is counted among the most popular heritage monuments in India.",
+                imgUrl: "https://www.planetware.com/photos-large/IND/india-top-attractions-taj-mahal.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -34,8 +34,8 @@ const Data = [
                 name: "Goa",
                 cityName: "Goa",
                 state: "Goa",
-                Description: "",
-                imageUrl: "https://thumbs.dreamstime.com/b/beach-goa-india-5393913.jpg",
+                Description: "Goa is the smallest state in India that lies between the Sahyadri range of the Western Ghats and the Arabian Sea on the west coast of India. The capital of Goa is Panaji and its official language is Konkani. Also known as the fun capital, Goa is a tourist Destination in India that boasts perky beaches, swanky nightlife, the old city charm of churches and cathedrals, lush green palm trees, cashew plantations, vibrant carnivals, flea markets, scrumptious cuisines, and an array of recreational activities. A party state, Goa throbs with the beats of music as every day is a carnival here. Famous for the cheerful nightlife, Goa is all about fun and merry-making.",
+                imgUrl: "https://thumbs.dreamstime.com/b/beach-goa-india-5393913.jpg",
                 category: "Beach Holiday",
                 rating: 0,
                 transport: [
@@ -53,8 +53,8 @@ const Data = [
                 name: "Munnar",
                 cityName: "Idukki",
                 state: "Kerala",
-                Description: "",
-                imageUrl: "https://media.gettyimages.com/id/1160316337/photo/tea-plantations.jpg?s=612x612&w=0&k=20&c=5gj1mezzy3cHlCQcqiOIM8pLBLeMyWoxW3e_R57eyv8=",
+                Description: "Munnar, the famed hill station of south India, is a romantic locale where natural beauty is everywhere to visit, explore and to enjoy. Munnar is situated at the confluence of three mountain streams – Muthirapuzha, Nallathanni and Kundala – and the word ‘Munnar’ means three rivers in Malayalam.  Situated about 1600m above sea level, the hill station had been the summer resort of the British Government during the colonial era. Imprints of the colonial past stand tall in the Munnar town in the form of English country cottages. Virgin forests, savannah, rolling hills, scenic valleys, numerous streams, huge splashy waterfalls, sprawling tea plantations and winding walkways are all part of the great holiday experience on offer for a traveler to Munnar. Munnar is also known for Neelakurinji, a rare plant which flowers only once in twelve years.",
+                imgUrl: "https://media.gettyimages.com/id/1160316337/photo/tea-plantations.jpg?s=612x612&w=0&k=20&c=5gj1mezzy3cHlCQcqiOIM8pLBLeMyWoxW3e_R57eyv8=",
                 category: "Nature",
                 rating: 0,
                 transport: [
@@ -76,8 +76,8 @@ const Data = [
                 name: "Coorg",
                 cityName: "Madikeri",
                 state: "Karnataka",
-                Description: "",
-                imageUrl: "https://media.istockphoto.com/id/1216722235/photo/mountain-with-green-grass-and-beautiful-sky.jpg?s=612x612&w=0&k=20&c=UD4Rmexxtkci9q-gH_PCUaBw6suwTCKp7SkZTXukQ2U=",
+                Description: "Coorg is famous for its coffee plantations, steep hills, countless streams, rich flora & fauna, lush forests and breathtaking views. Some of the must visit tourist attractions of Coorg include Nagarhole National Park, Abbi Falls, Iruppu Falls, The Raja's Seat, Madikeri Fort and Tibetan Buddhist Golden Temple.",
+                imgUrl: "https://media.istockphoto.com/id/1216722235/photo/mountain-with-green-grass-and-beautiful-sky.jpg?s=612x612&w=0&k=20&c=UD4Rmexxtkci9q-gH_PCUaBw6suwTCKp7SkZTXukQ2U=",
                 category: "Nature",
                 rating: 0,
                 transport: [
@@ -90,7 +90,7 @@ const Data = [
                         distance: 159
                     },
                     {
-                        gurl: ""
+                        gurl: "https://goo.gl/maps/LfG1jtigvw9FjC7U9"
                     }
                 ]
             },
@@ -99,8 +99,8 @@ const Data = [
                 name: "Manali",
                 cityName: "Kullu",
                 state: "Himachal Pradesh",
-                Description: "",
-                imageUrl: "https://www.shutterstock.com/image-photo/manali-himachal-pradesh-india-260nw-1350638618.jpg",
+                Description: "A gift of the Himalayas to the world, Manali is a beautiful township nestled in the picturesque Beas River valley. It is a rustic enclave known for its cool climate and snow-capped mountains, offering respite to tourists escaping scorching heat of the plains.",
+                imgUrl: "https://www.shutterstock.com/image-photo/manali-himachal-pradesh-india-260nw-1350638618.jpg",
                 category: "Adventure",
                 rating: 0,
                 transport: [
@@ -122,8 +122,8 @@ const Data = [
                 name: "Ooty",
                 cityName: "Ooty",
                 state: "Tamil Nadu",
-                Description: "",
-                imageUrl: "https://images.unsplash.com/photo-1584373570791-5248df49afd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b290eSUyQyUyMGluZGlhfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+                Description: "Ooty is a gorgeous hill station in Tamil Nadu, and is considered a haven for nature lovers from all the country. Ensconced in the lap of nature, this town is surrounded on all sides by the towering Nilgiris, evergreen fir trees and of course, lakes small and large.",
+                imgUrl: "https://images.unsplash.com/photo-1584373570791-5248df49afd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b290eSUyQyUyMGluZGlhfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
                 category: "Romantic Gateway",
                 rating: 0,
                 transport: [
@@ -145,8 +145,8 @@ const Data = [
                 name: "Lonavala and Khandala",
                 cityName: "Lonavala",
                 state: "Maharahstra",
-                Description: "",
-                imageUrl: "https://www.trawell.in/admin/images/upload/119127127Lonavala_Khandala_Main.jpg",
+                Description: "Lonavla is known as jewel of sahyadri mountains. It is also known for manufacturing tough sweet chikkis. It is a major stop on the rail line that connects Mumbai and Pune. Surrounded by dense forests, waterfalls and dams close to lakes, it is a must visit place for nature fans.",
+                imgUrl: "https://www.trawell.in/admin/images/upload/119127127Lonavala_Khandala_Main.jpg",
                 category: "Nature",
                 rating: 0,
                 transport: [
@@ -168,8 +168,8 @@ const Data = [
                 name: "Varanasi",
                 cityName: "Varanasi",
                 state: "Uttar Pradesh",
-                Description: "",
-                imageUrl: "https://c4.wallpaperflare.com/wallpaper/654/598/448/water-city-varanasi-wallpaper-preview.jpg",
+                Description: "The city of Lord Shiva, Varanasi, also known as Banaras and Kashi, is dotted with numerous sacred temples and ghats making it a spiritually blissful destination in India. Being the oldest city of India, Varanasi holds an important sacred significance which is perfectly blended in the sedating surrounding of the city.",
+                imgUrl: "https://c4.wallpaperflare.com/wallpaper/654/598/448/water-city-varanasi-wallpaper-preview.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -191,8 +191,8 @@ const Data = [
                 name: "Amritsar",
                 cityName: "Amritsar",
                 state: "Punjab",
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/IND/india-top-attractions-harmandir-sahib.jpg",
+                Description: "Amritsar is the cultural and spiritual centre of Sikh religion and is home to Harmandir Sahib, also known as Golden Temple; which is one of the most important pilgrimage sites of Sikh religion. It also showcases the composite culture and secular heritage of Punjab.",
+                imgUrl: "https://www.planetware.com/photos-large/IND/india-top-attractions-harmandir-sahib.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -214,8 +214,8 @@ const Data = [
                 name: "Kedarnath",
                 cityName: "Kedarnath",
                 state: "Uttarakhand",
-                Description: "",
-                imageUrl: "https://www.euttaranchal.com/tourism/photos/kedarnath-2240900.jpg",
+                Description: "The historical name of this region is KedarKhand and legend says, the Pandavas from the epic Mahabharata, after having defeated the Kauravas, felt guilty of having killed so many people and sought the blessings of Lord Shiva for redemption. The Lord eluded them repeatedly and took refuge at Kedarnath in the form of a bull. The Lord dived into the ground, leaving his hump on the surface at Kedarnath. The remaining portions of Lord Shiva appeared at four other places and are worshipped there as his manifestations. The arms of the Lord appeared at Tungnath, the face at Rudranath, the belly at Madmaheshwar and his locks (hair) at Kalpeshwar. The Kedarnath and four above mentioned shrines make the revered Panch Kedar pilgrimage circuit.",
+                imgUrl: "https://www.euttaranchal.com/tourism/photos/kedarnath-2240900.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -237,17 +237,17 @@ const Data = [
     {
         id: 2,
         name: "France",
-        description: "",
-        heroImage: "",
-        continent:"Europe",
+        description: "In France tourism is a major industry. France is the world's leading tourist destination. Not only is it situated at the heart of western Europe, bordering on all the larger countries in the region - Italy, Spain, Germany, Belgium, Switzerland and - across the straits of Dover - the UK; it also has Europe's second busiest airport - Paris Charles de Gaulle airport - and dozens more airports with international connections.In France tourism is a major industry. France is the world's leading tourist destination. Not only is it situated at the heart of western Europe, bordering on all the larger countries in the region - Italy, Spain, Germany, Belgium, Switzerland and - across the straits of Dover - the UK; it also has Europe's second busiest airport - Paris Charles de Gaulle airport - and dozens more airports with international connections.",
+        heroImage: "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Europe",
         locations: [
             {
                 id: 1,
                 name: "Eiffel Tower",
                 cityName: "Paris",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-eiffel-tower.jpg",
+                Description: "Two senior engineers working for the architect and engineer Gustave Eiffel designed the Tower, which was then approved by Eiffel and proposed as the centerpiece for the world fair held in France’s capital, the Exposition Universelle in 1889. Once approved, 250 builders were hired to build the monument, which took over two years to finish. Initially, the Eiffel Tower was the subject of controversy. The artists of the period thought the monument to be monstrous, and given its poor profitability, it was suggested on several occasions that they should demolish it.During World War I, enemy messages were intercepted thanks to the tower radiotelegraphy center.Currently, the Eiffel Tower is the most-visited monument in the world with over 7 million visitors a year. This is partly due to the popularity of Paris as a tourist destination.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-eiffel-tower.jpg",
                 category: "Travel Wanderlust",
                 rating: 0,
                 transport: [
@@ -256,7 +256,7 @@ const Data = [
                         distance: 5
                     },
                     {
-                        city2: "Nearest Airport",
+                        city2: "Nearest Airport - paris international airport",
                         distance: 34
                     },
                     {
@@ -269,8 +269,8 @@ const Data = [
                 name: "Musee du Louvre",
                 cityName: "Paris",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/wpimages/2021/11/france-top-attractions-musee-du-louvre.jpg",
+                Description: "Formerly a royal palace, the Louvre embraces eight centuries of French history. Intended as a universal museum since its creation in 1793, its collections – among the finest in the world – span several thousands of years and a territory that extends from America to the confines of Asia.",
+                imgUrl: "https://www.planetware.com/wpimages/2021/11/france-top-attractions-musee-du-louvre.jpg",
                 category: "Art & Festival",
                 rating: 0,
                 transport: [
@@ -279,7 +279,7 @@ const Data = [
                         distance: 2
                     },
                     {
-                        city2: "Nearest Airport",
+                        city2: "Nearest Airport - paris international airport",
                         distance: 33
                     },
                     {
@@ -292,8 +292,8 @@ const Data = [
                 name: "Cote d'Azur",
                 cityName: "French Riviera",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-cote-d-azure.jpg",
+                Description: "The Côte d'Azur is also glittering with world-class events such as the Cannes Film Festival – and the warm hues of its villages and gardens give it an inimitable holiday atmosphere, bolstered by the famous scents of its hinterland.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-cote-d-azure.jpg",
                 category: "Beach Holiday",
                 rating: 0,
                 transport: [
@@ -315,8 +315,8 @@ const Data = [
                 name: "Mont Saint-Michel",
                 cityName: "Manch,Normandy",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-mont-saint-michel-2.jpg",
+                Description: "A magical island topped by a gravity-defying abbey, the Mont-Saint-Michel and its Bay count among France's most stunning sights. For centuries one of Europe's major pilgrimage destinations, this holy island is now a UNESCO World Heritage Site, as is its breathtaking bay.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-mont-saint-michel-2.jpg",
                 category: "Travel Wanderlust",
                 rating: 0,
                 transport: [
@@ -338,8 +338,8 @@ const Data = [
                 name: "Provence",
                 cityName: "Provence",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/wpimages/2020/04/france-top-attractions-provence.jpg",
+                Description: "Provence is is both picturesque villages in the hills and busy metropolises possessing international airports (Nice and Marseille). Provence is of course olive groves and lavender; but there are also the famous vineyards of Côtes du Rhône, Côtes de Provence and Bandol everything growing to the hum of the cicadas !",
+                imgUrl: "https://www.planetware.com/wpimages/2020/04/france-top-attractions-provence.jpg",
                 category: "Travel Wanderlust",
                 rating: 0,
                 transport: [
@@ -361,8 +361,8 @@ const Data = [
                 name: "Alsace Villages",
                 cityName: "Strasbourg",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/wpimages/2020/04/france-top-attractions-alsace-villages.jpg",
+                Description: "Alsace is one of the most beautiful regions in France. It is known for its Christmas markets, its castles, its wine road and its proximity to Germany. It is also known for its high-quality gastronomy, especially its sauerkraut, its Flammekueche, and its white wines.",
+                imgUrl: "https://www.planetware.com/wpimages/2020/04/france-top-attractions-alsace-villages.jpg",
                 category: "Art & Festival",
                 rating: 0,
                 transport: [
@@ -384,8 +384,8 @@ const Data = [
                 name: "Biarritz",
                 cityName: "Biarritz",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-basque-country.jpg",
+                Description: "Biarritz, nugget of the Atlantic coast, rich in its architectural heritage and its history offers you to discover its many sites and museums. The city also offers a multitude of activities, cultural and leisure. You can practice Surf, Golf, Rugby or relax in Thalasso.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-basque-country.jpg",
                 category: "Travel Wanderlust",
                 rating: 0,
                 transport: [
@@ -407,8 +407,8 @@ const Data = [
                 name: "Rocamadour",
                 cityName: "Rocamadour",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-rocamadour.jpg",
+                Description: "Rocamadour is one of France's most important tourist destinations. Rocamadour has several highlights well worth exploring, although it is the 'village as a perfect unity' which is really the big attraction. The village clings to the cliff side above the river Alzou and is so picture perfect it is quite breathtaking.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-rocamadour.jpg",
                 category: "Travel Wanderlust",
                 rating: 0,
                 transport: [
@@ -430,8 +430,8 @@ const Data = [
                 name: "Versailles",
                 cityName: "Versailles",
                 state: null,
-                Description: "",
-                imageUrl: "https://www.planetware.com/wpimages/2021/10/france-top-attractions-chateau-versailles-les-jardins.jpg",
+                Description: "The royal town has so much to offer. Known throughout the world for its magnificent palace and historical links with the French monarchy, Versailles has a whole host of other attractions on offer too. Come and re-live the history of France and the splendour of the Louis XIV era through the historic districts, cultural heritage, extraordinary locations and spectacular festivals and performances of Versailles.",
+                imgUrl: "https://www.planetware.com/wpimages/2021/10/france-top-attractions-chateau-versailles-les-jardins.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -453,8 +453,8 @@ const Data = [
                 name: "Brittany",
                 cityName: "Brittany",
                 state: "Rennes",
-                Description: "",
-                imageUrl: "https://www.planetware.com/photos-large/F/france-brittany.jpg",
+                Description: "Discover the 'Terres Océanes' at the western tip, the Forest of Broceliande, the green inner lung, the little ports of Cornouaille (Brittany's Cornwall), and the pink granite rocks. From its bays, gulfs, capes and salt marshes to its capital city, Brittany is a marvel. DESTINATIONS Brittany.",
+                imgUrl: "https://www.planetware.com/photos-large/F/france-brittany.jpg",
                 category: "Culture&Heritage",
                 rating: 0,
                 transport: [
@@ -476,9 +476,9 @@ const Data = [
     {
         id: 3,
         name: "Australia",
-        description: "",
-        heroImage: "",
-        continent:"Australia",
+        description: "The beauty, variety and pristine quality of Australia's natural landscapes, from exotic coastal areas to lush rainforests and red deserts, make Australia a desirable travel destination. About six million visitors come to Australia each year lured by beautiful beaches, unique flora and fauna, friendly people and a relaxed atmosphere. Australia has some 9,700 protected nature areas such as national parks, and can offer visitors a vast and diverse array of nature-based tourism opportunities. Indigenous culture is also a unique and growing attraction.Food and wine tourism is expanding, in line with Australia's growing international reputation as a producer of high-quality wines and a supplier of fresh, regionally-based food products.",
+        heroImage: "https://media.istockphoto.com/id/535455441/photo/view-of-sydney-harbour-australia.jpg?s=612x612&w=0&k=20&c=o7qSiUvYzMp94lYYb7R1ZUAMcEG54byX0bU3UY1z2sQ=",
+        continent: "Australia",
         locations: [
             {
                 id: 1,
@@ -621,7 +621,7 @@ const Data = [
             {
                 id: 7,
                 name: "Horizontal Falls",
-                cityName: "Kimberley Region",
+                cityName: "Kimberley",
                 state: null,
                 Description: "",
                 imgUrl: "https://www.planetware.com/wpimages/2021/07/australia-top-attractions-horizontal-falls-kimberley-region-mitchell-falls.jpg",
@@ -633,23 +633,23 @@ const Data = [
                         distance: 120
                     },
                     {
-                        city2: "Nearest Airport - Kings Coat Airport",
+                        city2: "Nearest Airport - Kingscote Airport",
                         distance: 120
                     },
                     {
                         gurl: "https://goo.gl/maps/MkD2xrUBSjZTEnbc8"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id: 4,
         name: "Greece",
-        description: "",
-        heroImage: "",
-        continent:"Europe",
-        locations: [
+        description: "Greece mainland and the Greek islands have some of the favorite holiday destinations in Europe.Greece comes in 13th place (2019) in the world rating of tourist destinations, since, according to the National Statistical Service of Greece, it receives more than 30 million tourists every year, after countries such as the USA, China, Spain, France and Great Britain.Greece is a famous country, popular for its clean beaches and its long history.There are hundreds of archaeological and historical sites to visit in Greece that gloriously depict the country's past.Its landscape is mainly mountainous and the terrain is not very fertile, except for some valleys scattered along the Greek mainland.",
+        heroImage: "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Europe",
+        locartions: [
             {
                 id: 1,
                 name: "Acropolis",
@@ -757,7 +757,7 @@ const Data = [
                         distance: 120
                     },
                     {
-                        city2: "Nearest Airport - Corfu Lonis Kapodaistrias Airport",
+                        city2: "Nearest Airport - Corfu Lonis Kapodistrias Airport",
                         distance: 2.7
                     },
                     {
@@ -826,22 +826,22 @@ const Data = [
                         distance: 120
                     },
                     {
-                        city2: "Nearest Airport - Kings Coat Airport",
+                        city2: "Nearest Airport - Kingscote Airport",
                         distance: 120
                     },
                     {
                         gurl: "https://goo.gl/maps/UX3nqWn7K1BSvpBY7"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id: 5,
         name: "Switzerland",
-        description: "",
-        heroImage: "",
-        continent:"Europe",
+        description: "Switzerland is a breathtakingly beautiful land-locked country in Central Europe with France to the west, Italy to the south, Austria to the east and Germany to the north. The country is famous for its scenic Alps and its rolling hills, plains, and lakes. It is also renowned for its chocolates and watches, while the Swiss knife is a legend in itself! Tourism in Switzerland is a delight of skiing, snow-walking, gorging on chocolates and cheeses and of course, swaying in the Alps. Here is a travel guide to Switzerland for one and sundry, to help you plan your next holiday.",
+        heroImage: "https://images.unsplash.com/photo-1583702993462-43615c05ceee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        continent: "Europe",
         locations: [
             {
                 id: 1,
@@ -927,7 +927,7 @@ const Data = [
                         distance: 55
                     },
                     {
-                        city2: "Nearest Airport - Kings Coat Airport",
+                        city2: "Nearest Airport - KingsCote Airport",
                         distance: 120
                     },
                     {
@@ -973,7 +973,7 @@ const Data = [
                         distance: 48
                     },
                     {
-                        city2: "Nearest Airport - Kings Coat Airport",
+                        city2: "Nearest Airport - KingsCote Airport",
                         distance: 120
                     },
                     {
@@ -1078,9 +1078,9 @@ const Data = [
     {
         id:6,
         name:"Canada",
-        description:"",
-        heroImage:"",
-        continent:"North America",
+        description:"Canada is a country as diverse in culture as it is immense in size. Multiculturalism is a cherished attribute of Canada, and is reflected in the many distinctive communities across the country. French and English are the two official languages and are most commonly spoken in Canada, although there are also a multitude of languages spoken by aboriginal peoples and communities of immigrants from diverse origins. The infusion of traditions from a wide variety of ethnic communities combined with a neighborly attitude makes Canada a vibrant destination for travel.",
+        heroImage:"https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80",
+        continent: "North America",
         locations: [
             {
                 id: 1,
@@ -1288,15 +1288,15 @@ const Data = [
                         gurl: "https://goo.gl/maps/pRQtFVqZNkHGYTCD8"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id: 7,
         name:"Spain",
-        description:"",
-        heroImage:"",
-        continent:"Europe",
+        description:"Spain is a larger than life expression of beauty. A contrast of wild and tame, layered and exotic, and certainly one of the places that you must visit at least once in your lifetime. It wouldn’t be too off the mark to think of Spain as a symbol of life, vibrant and resonating with culture and all sorts of delights. Travellers to Spain are taken in by the gorgeous vistas, the glorious mountain ranges, the warm Mediterranean waters, the historical cathedrals and of course, the delicious food. ",
+        heroImage:"https://images.unsplash.com/photo-1543783207-ec64e4d95325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Europe",
         locations: [
             {
                 id: 1,
@@ -1305,7 +1305,7 @@ const Data = [
                 state: null,
                 Description: "",
                 imgUrl: "https://www.planetware.com/photos-large/E/spain-granada-alhambra-4.jpg",
-                category: "Art & Festival",
+                category: "Art&Festival",
                 rating: 0,
                 transport: [
                     {
@@ -1504,15 +1504,15 @@ const Data = [
                         gurl: "https://goo.gl/maps/8gJ29rzmkd5QvtSdA"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id:8,
         name:"United States",
-        description:"",
-        heroImage:"",
-        continent:"North America",
+        description:"The United States of America, which is commonly referred to as the United States or U.S., located in the continent of North America covers an area of 9.826 million sq km, which makes it the third largest country in the world in terms of area. Bordered by Canada on the north and Mexico on the south, the country is bound by the Atlantic Ocean on the east, Pacific Ocean on the west, while the Gulf of Mexico touches its southeast coast. U.S. comprises 48 contiguous states, with the state of Alaska and the island state of Hawaii in the mid-Pacific forming the 49th and 50th states respectively. The geography of the country ranges from Arctic in Alaska to subtropical features in Hawaii and Florida. This vast mass of land spans from arid desert to wet rain forests, from outstretched prairie to rugged peaks, and from a volcanic landscape in Hawaii to elongated coastlines. The U.S. is a melting pot where people from the different ethnic backgrounds and national origins exist. The most significant cultural aspect of this country is that it recognizes its people not by their ethnicity but by their citizenship and allegiance. The culture of this country embraces all the elements be it conservative or liberal, and gives the rights of free expression, individualism and egalitarianism. The variety in American culture is unique in the world. The places of interest in the U.S. are unlimited, from classy urban marvels and jazzy nightlife to quaint little countryside beauties; the country boasts something for everyone. Washinton D.C., the capital city, houses three most important buildings, the Capitol, White House and Supreme Court. While, New York is the influential center for finance, fashion, culture and arts. Home to Time Square, Statue of Liberty, the Empire State Building and other iconic buildings, New York is a fast-paced city. San Francisco is known for its beautiful landscape, foggy locales, cable cars, and vibrant Victorian houses. ",
+        heroImage:"https://images.unsplash.com/photo-1543158266-0066955047b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "North America",
         locations:[
             {
                 id: 1,
@@ -1697,15 +1697,15 @@ const Data = [
                         gurl: "https://goo.gl/maps/mJ3AYqjYbqVAFA5b6"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id:9,
         name:"China",
-        description:"",
-        heroImage:"",
-        continent:"Asia",
+        description:"China, known to everybody as “World’s Factory” is not only a huge state with thousands of plants and overpopulated cities , whose total population exceeds one billion people, but also one of the most interesting and various tourist centers. The third largest country (after Russia and Canada), it has everything that can be interesting to a foreigner: architectural monuments of one of the most ancient civilizations, national parks with different climate and nature, modern metropolises and small provincial towns which managed to preserve their original culture, amazing sand beaches and inaccessible snow-white mountain tops.Cultural tourism in the tourist sphere in China, as in many other countries, holds a high position. The country with the history numbering more than one thousand years, has a great many of monuments belonging to different dynasties ruling as far back as BC, pilgrimage destinations of Buddhism and other religions, colossal sculptures and temples, and the Great Wall of China, one of its visiting cards. Furthermore the architecture and cultural features within the country differ considerably depending on the region.",
+        heroImage:"https://images.unsplash.com/photo-1547150492-da7ff1742941?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Asia",
         locations: [
             {
                 id: 1,
@@ -1890,15 +1890,15 @@ const Data = [
                         gurl: "https://goo.gl/maps/dntXDZFURrAjpU5S9"
                     }
                 ]
-            }
+            },
         ]
     },
     {
         id:10,
         name:"Germany",
-        description:"",
-        heroImage:"",
-        continent:"Europe",
+        description:"While Berlin is a favorite travel destination for tourists from near and far, Bavaria is actually the most popular tourist destination in the country, with 100 million overnight stays in 2019. This is because Germany is also a really popular vacation destination among Germans. This means that most visitors come from Germany itself! According to deutschland.de, the following countries rank next: The Netherlands, Switzerland and the USA.When traveling to or within Germany, the majority of people are looking for history, culture and natural beauty. In metropolitan cities such as Munich, Berlin or Hamburg, those interested in culture enjoy visiting spectacular sights or experiencing art. Active holidaymakers like to head to the Bavarian Alps, the Black Forest or the Rhine Valley to indulge in some real action.",
+        heroImage:"https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Europe",
         locations: [
             {
                 id: 1,
@@ -2083,11 +2083,204 @@ const Data = [
                         gurl: "https://goo.gl/maps/vqvskUjTGbSLanLe7"
                     }
                 ]
-            }
+            },
         ]
+    },
+    {
+        id:11,
+        name:"Japan",
+        description:"Japan is the most amazing tourist destination and it offers many unique experiences that you cannot find in any other part of the world. The culture of this country is an interesting blend of Eastern traditions and Western modernity that can be seen everywhere. Japan is one of the oldest civilizations and has a beautiful and diverse history. The stunning, diverse scenery with mountains and breathtaking views, which are much appreciated by the Japanese, offers so many different experiences that attract tourists from all corners of the world. In this article we give you our best reasons why you should make a trip to this amazing country at least once in your lifetime.",
+        heroImage:"https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        continent: "Asia",
+        locations: [
+            {
+                id: 1,
+                name: "Mount fuji",
+                cityName: "fuji",
+                state: "Honshu",
+                Description: "",
+                imgUrl: "https://www.planetware.com/photos-large/JPN/japan-attractions-mount-fuji.jpg",
+                category: "Ancient&Historical",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station -  kawaguchiko train station",
+                        distance: 3
+                    },
+                    {
+                        city2: "Nearest Airport - shizuoka airport",
+                        distance: 81
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/nTmGLMbqzGu1DEhBA"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: "Imperial Tokyo",
+                cityName: "Tokyo",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/photos-large/JPN/japan-attractions-imperial-palace.jpg",
+                category: "culture&heritage",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - Tokyo",
+                        distance: 0.8
+                    },
+                    {
+                        city2: "Nearest Airport - Haneda airport",
+                        distance: 20
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/iMCMtZaYSW5JAHAQA"
+                    }
+                ]
+            },
+            {
+                id: 3,
+                name: "The Hiroshima peace memorial park",
+                cityName: "Hiroshima",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/photos-large/JPN/japan-attractions-hiroshima-peace-memorial-park.jpg",
+                category: "Travel wanderlust",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - Hiroshima station",
+                        distance: 2.6
+                    },
+                    {
+                        city2: "Nearest Airport - Iwakuni Kintaikyu airport",
+                        distance: 33
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/9ZtnA2cRRCDQTNtv9"
+                    }
+                ]
+            },
+            {
+                id: 4,
+                name: "Osaka Castle",
+                cityName: "Osaka",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/wpimages/2020/09/japan-top-attractions-osaka-castle.jpg",
+                category: "Culture&heritage",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - Osakajokitazume station",
+                        distance: 0.8
+                    },
+                    {
+                        city2: "Nearest Airport - Osaka international(Itami) airport",
+                        distance: 17
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/zA2PBGwR523aUSvw9"
+                    }
+                ]
+            },
+            {
+                id: 5,
+                name: "Shinjuku Gyoen National garden",
+                cityName: "Tokyo",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/wpimages/2022/02/japan-top-attractions-shinjuku-gyoen-national-garden.jpg",
+                category: "Nature",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - Sendagaya station",
+                        distance: 7.2
+                    },
+                    {
+                        city2: "Nearest Airport - Haneda International airport",
+                        distance: 24
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/vm6vUJNSgZBh1hgC6"
+                    }
+                ]
+            },
+            {
+                id: 6,
+                name: "Hakone-open air museum",
+                cityName: "Hakone",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/wpimages/2022/02/japan-top-attractions-hakone-open-air-museum.jpg",
+                category: "Adventure",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - chokokunomori train station",
+                        distance: 1.4
+                    },
+                    {
+                        city2: "Nearest Airport - Oshima airport",
+                        distance: 84
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/BrRvbDu2pQonjHDP8"
+                    }
+                ]
+            },
+            {
+                id: 7,
+                name: "Okinawa churaumi aquarium",
+                cityName: "Tokyo",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/wpimages/2022/02/japan-top-attractions-okinawa-churaumi-aquarium.jpg",
+                category: "Nature",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station -Tokyo Narita",
+                        distance: 160
+                    },
+                    {
+                        city2: "Nearest Airport - Tokyo Haneda airport",
+                        distance: 93
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/eTN4FVpXwrYwmRWAA"
+                    }
+                ]
+            },
+            {
+                id: 8,
+                name: "Arashiyama Monkey park",
+                cityName: "Kyoto",
+                state: null,
+                Description: "",
+                imgUrl: "https://www.planetware.com/wpimages/2022/02/japan-top-attractions-arashiyama-monkey-park.jpg",
+                category: "Wildlife",
+                rating: 0,
+                transport: [
+                    {
+                        city1: "Nearest Railway Station - arashiyama train station",
+                        distance: 4.5
+                    },
+                    {
+                        city2: "Nearest Airport - Kyoto kansai Airport",
+                        distance: 10
+                    },
+                    {
+                        gurl: "https://goo.gl/maps/imfE6P5fpEpypETz8"
+                    }
+                ]
+            },
+
+        ] 
     }
 ]
-
 
 
 export default Data;

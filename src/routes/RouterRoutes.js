@@ -20,7 +20,7 @@ const RouterRoutes = () => {
                 <Route path="/all-locations" element={<AllProducts />} />
                 <Route path="/all-locations/country-details/:countryId" element={<CountryDetails />} />
                 <Route path="/all-locations/country-details/:countryId/place-details/:placeId" element={<LocationDetails />} />
-
+                <Route path="/detailfromhome/:placeId" element={<LocationDetails />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </>

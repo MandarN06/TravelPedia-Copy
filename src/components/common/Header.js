@@ -47,6 +47,7 @@ const Header = () => {
                                 <div className="tooltip">Search</div>
                             </div>
 
+                            {/* Cart action */}
                             <div className="cart_action">
                                 <Link to="/cart">
                                     <AiOutlineShoppingCart />

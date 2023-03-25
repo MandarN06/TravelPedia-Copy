@@ -4,28 +4,30 @@ import { BsArrowRight } from 'react-icons/bs';
 import useActive from '../../hooks/useActive';
 import productsData from '../../data/productsData';
 import ProductCard from './ProductCard';
-
+import sliceddata from '../../data/sliceddata';
+import { sortMenu2 } from '../../data/filterBarData';
 
 const TopProducts = () => {
 
-    const [products, setProducts] = useState(productsData);
+    // const [products, setProducts] = useState(productsData);
+    const [products, setProducts] = useState(sliceddata);
     const { activeClass, handleActive } = useActive(0);
 
     // making a unique set of product's category
     const productsCategory = [
         'All',
-        ...new Set(productsData.map(item => item.category))
+        ...new Set(sortMenu2.map(item => item.title))
     ];
 
     // handling product's filtering
     const handleProducts = (category, i) => {
         if (category === 'All') {
-            setProducts(productsData);
+            setProducts(sliceddata);
             handleActive(i);
             return;
         }
 
-        const filteredProducts = productsData.filter(item => item.category === category);
+        const filteredProducts = sliceddata.filter(item => item.category === category);
         setProducts(filteredProducts);
         handleActive(i);
     };
@@ -50,18 +52,18 @@ const TopProducts = () => {
             </div>
             <div className="wrapper products_wrapper">
                 {
-                    products.slice(0, 11).map(item => (
+                    products.map(item => (
                         <ProductCard
                             key={item.id}
                             {...item}
                         />
                     ))
                 }
-                <div className="card products_card browse_card">
+                {/* <div className="card products_card browse_card">
                     <Link to="/all-locations">
                         Browse All <br /> Products <BsArrowRight />
                     </Link>
-                </div>
+                </div> */}
             </div>
         </>
     );

@@ -6,7 +6,7 @@ import SectionsHead from './SectionsHead';
 const Services = () => {
   return (
     <>
-      <section id="services" className="section">
+      {/* <section id="services" className="section">
         <div className="container">
           <SectionsHead heading="Our Advantages" />
           <div className="wrapper services_wrapper">
@@ -27,7 +27,7 @@ const Services = () => {
             }
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

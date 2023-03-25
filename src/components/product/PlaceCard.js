@@ -6,14 +6,14 @@ import cartContext from "../../contexts/cart/cartContext";
 import useActive from "../../hooks/useActive";
 
 const PlaceCard = (props) => {
-  const { id, name,cityName ,state , description, imageUrl , category } = props;
+  const { id, name,cityName ,state , description, imgUrl , category } = props;
   
   return (
     <>
       <div className="card products_card">
         <figure className="products_img">
           <Link to={`place-details/${id}`}  state={props}>
-            <img src={imageUrl} alt="product-img" style={{height:"200px" ,width:"200px"}} />
+            <img src={imgUrl} alt="product-img" style={{height:"200px" ,width:"200px"}} />
           </Link>
         </figure>
         <div className="products_details">

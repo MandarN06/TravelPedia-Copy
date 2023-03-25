@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { BsExclamationCircle } from "react-icons/bs";
 import useDocTitle from "../hooks/useDocTitle";
-import FilterBar from "../components/filters/FilterBar";
+import FilterBar2 from "../components/filters/FilterBar2";
 import ProductCard from "../components/product/ProductCard";
 import Services from "../components/common/Services";
 import filtersContext from "../contexts/filters/filtersContext";
@@ -17,7 +17,7 @@ const CountryDetails = () => {
   return (
     <>
       <section id="all_products" className="section">
-        <FilterBar />
+        <FilterBar2 />
         <div className="container">
           {demo.length > 0 ? (
             <div className="wrapper products_wrapper">

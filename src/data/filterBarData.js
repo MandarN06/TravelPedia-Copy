@@ -21,6 +21,38 @@ export const sortMenu = [
     },
 ];
 
+// Sort menu 2
+
+export const sortMenu2 = [
+    {
+        id: 1,
+        title: "Travel Wanderlust",
+    },
+    {
+        id: 2,
+        title: "Art & Festival",
+    },
+    {
+        id: 3,
+        title: "Romantic Gateways",
+    },
+    {
+        id: 4,
+        title: "Culture&Heritage",
+    },
+    {
+        id: 5,
+        title: "Beach"
+    },
+    {
+        id: 6,
+        title: "Nature"
+    },
+    {
+        id: 7,
+        title: "Adventure"
+    },
+];
 export const brandsMenu = [
     {
         id: 1,
